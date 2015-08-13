@@ -69,22 +69,6 @@ static NSString *containingApplicationBundleIdentifier_;
 
     shouldEnableLocalDatastore_ = NO;
 
-    PFObjectSubclassingController *subclassingController = [PFObjectSubclassingController defaultController];
-    // Register built-in subclasses of PFObject so they get used.
-    // We're forced to register subclasses directly this way, in order to prevent a deadlock.
-    // If we ever switch to bundle scanning, this code can go away.
-    [subclassingController registerSubclass:[PFUser class]];
-    [subclassingController registerSubclass:[PFSession class]];
-    [subclassingController registerSubclass:[PFRole class]];
-    [subclassingController registerSubclass:[PFPin class]];
-    [subclassingController registerSubclass:[PFEventuallyPin class]];
-#if !TARGET_OS_WATCH
-    [subclassingController registerSubclass:[PFInstallation class]];
-#if TARGET_OS_IOS
-    [subclassingController registerSubclass:[PFProduct class]];
-#endif
-#endif
-
 #if TARGET_OS_IOS
     [PFNetworkActivityIndicatorManager sharedManager].enabled = YES;
 #endif
