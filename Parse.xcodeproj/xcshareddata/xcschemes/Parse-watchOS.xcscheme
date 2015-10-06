@@ -14,23 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "81C3821B19CCA89E0066284A"
+               BlueprintIdentifier = "810155051BB3832700D7C7BD"
                BuildableName = "Parse.framework"
-               BlueprintName = "Parse-iOS"
-               ReferencedContainer = "container:Parse.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "NO"
-            buildForProfiling = "NO"
-            buildForArchiving = "NO"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "816F441B1A8E8933009CDB32"
-               BuildableName = "ParseUnitTests-iOS.xctest"
-               BlueprintName = "ParseUnitTests-iOS"
+               BlueprintName = "Parse-watchOS"
                ReferencedContainer = "container:Parse.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -40,30 +26,9 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      codeCoverageEnabled = "YES"
-      enableAddressSanitizer = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "816F441B1A8E8933009CDB32"
-               BuildableName = "ParseUnitTests-iOS.xctest"
-               BlueprintName = "ParseUnitTests-iOS"
-               ReferencedContainer = "container:Parse.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "81C3821B19CCA89E0066284A"
-            BuildableName = "Parse.framework"
-            BlueprintName = "Parse-iOS"
-            ReferencedContainer = "container:Parse.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -80,9 +45,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "81C3821B19CCA89E0066284A"
+            BlueprintIdentifier = "810155051BB3832700D7C7BD"
             BuildableName = "Parse.framework"
-            BlueprintName = "Parse-iOS"
+            BlueprintName = "Parse-watchOS"
             ReferencedContainer = "container:Parse.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -98,9 +63,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "81C3821B19CCA89E0066284A"
+            BlueprintIdentifier = "810155051BB3832700D7C7BD"
             BuildableName = "Parse.framework"
-            BlueprintName = "Parse-iOS"
+            BlueprintName = "Parse-watchOS"
             ReferencedContainer = "container:Parse.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
